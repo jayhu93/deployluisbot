@@ -28,9 +28,9 @@ var recognizer = new builder.LuisRecognizer(process.env.LUIS_MODEL_URL);
 bot.recognizer(recognizer);
 
 var questions = {
-    'How do you handle setbacks?': 'Suggestions for setbacks',
-    'What are your greatest weaknesses?': 'Suggestions for greatest weaknesses',
-    'What are your career goals?': 'Suggestions for career goals'
+    'Please tell us about a time where you failed or struggled. How do you handle setbacks?': 'It\'s tempting to avoid going in-depth into this one, or to portray yourself as the victim in an unfair situation. However, DON\'T make excuses or try to justify your actions if they did not result in a good outcome. Be honest and acknowledge your mistakes, then provide solid examples of how you have improved. This will show the interviewer that you are mature and self-aware, and that you are able to learn from your errors and setbacks.',
+    'Who is someone that you admire? Why?': 'This is a way for the interviewer to ask "What qualities do you admire, and how will that make you a better employee?" Take this opportunity to highlight some of your own strengths and values, using your chosen role model as a reference.',
+    'Where do you see yourself in 10 years? What are your career goals?': 'Employers want to know how you\'ll fit into the company, and what roles you see yourself playing in the organization\'s future (or if you\'ll even be there in the future!) It might be beneficial to mention the experiences and qualifications that have shaped your goals. If you can show that you\'ve put some thought into your career path, you\'ll come across as a motivated, mature individual.'
 };
 
 
