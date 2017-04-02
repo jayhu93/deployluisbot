@@ -1,0 +1,6 @@
+framework module Pods_InterviewerBot {
+  umbrella header "Pods-InterviewerBot-umbrella.h"
+
+  export *
+  module * { export * }
+}
